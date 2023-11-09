@@ -1,0 +1,40 @@
+
+
+/* Selector elemento: Identificar un elemento de HTML*/
+h1 {
+  background-color: #4823af;
+}
+
+h2 {
+  background-color: #4823af;
+}
+
+.titulos-morados #grappe > h2 {
+  background-color: #641c69;
+}
+
+.titulos-verdes h2 {
+  background-color: #00ff1e;
+}
+
+.titulos-verdes h2:first-child {
+  background-color: #038c13;
+}
+/* Selector clase: Identificar elementos que tengan el atributo de clase en el HTML*/
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* Selector clase: Identificar el elemento único que tenga el atributo de id en el HTML*/
+
+#natural:hover{
+  background-color: #1f8e2c;
+}
